@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>semana33</title>
+	<link rel="stylesheet" type="text/css" href="estilos33.css">
+</head>
+<body class="a3" id="fon">
+	<div>
+	<img src="magica.jpg" class="da1">
+	<div onclick="document.getElementById('player').play();">
+<input type=image src="hon.png" class="d" onclick="hongo();">
+</div>
+
+<div onclick="document.getElementById('player1').play();">
+<input type=image src="agua.png" class="d2" onclick="hongo();">
+</div>
+
+
+<div onclick="document.getElementById('player3').play();">
+<input type=image src="arbol.png" class="d4" onclick="hongo();">
+</div>
+
+<div onclick="document.getElementById('player2').play();">
+<input type=image src="flor.png" class="d3" onclick="hongo();">
+</div>
+
+</div>
+	
+<audio  id="player"  src="text.mp3"></audio>
+<audio id="player1" src="agua.mp3"></audio>
+<audio id="player2" src="flor.mp3"></audio>
+<audio id="player3" src="arbol.mp3"></audio>
+<button class="bot"><a href="final.html" class="boton">F I N A L I Z A R</a></button>
+<div><font class="a" id="le">EL BOSQUE DEL AGUA</font></div>
+<div id="di"><img src="b.jpg" class="a2"><font class="f">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp HOLA AMIGUITO! &nbsp BIENVENIDO AL BOSQUE  <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp DEL AGUA, HOY TE ENSEÑAREMOS LA <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp IMPORTANCIA DEL AGUA</font> 
+<button class="cerrar" onclick="ocultar();">I N I C I A R</button></div>
+<script>
+	var ocultar=function(){
+		var a=document.getElementById("di");
+
+		a.className="cerrar";
+		if(a.className=="cerrar")
+		
+		{
+			
+			a.className="b";
+
+		}
+		var b=document.getElementById("fon");
+
+		b.className="a3";
+		if(b.className=="a3")
+		
+		{
+			
+			b.className="a4";
+
+		}
+		var c=document.getElementById("le");
+		c.className="a";
+		if(c.className=="a")
+		
+		{
+			
+			c.className="a5";
+
+		}
+	}
+
+	var hongo=function(){
+		var f=document.getElementById("d");
+
+		f.className="d";
+		if(f.className=="d")
+		
+		{
+			
+			f.className="b";
+
+		}
+		
+	}
+</script>
+
+</body>
+</html>

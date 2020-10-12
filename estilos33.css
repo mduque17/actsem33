@@ -1,0 +1,190 @@
+.a{
+	font-family: fuente1;
+    font-size: 95px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    color: #1976D2;
+}
+.f{
+	position: absolute;
+	font-family: fuente;
+	top: 35%;
+	left: 16%;
+	font-size: 300%;
+}
+.a2{
+	position: absolute;
+	left: 12.5%;
+	width: 75%;
+	height: 90%;
+	top: 20%;
+}
+.a3{
+	background-color: #7FFF00;
+}
+.a4{
+	background-color: #039BE5;
+}
+.a5{
+	font-color: #000033;
+	font-family: fuente1;
+    font-size: 95px;
+    position: absolute;
+    left: 20%;
+    top: 3%;
+    
+}
+.h{
+	position: absolute;
+	top: 65%;
+	width: 20%;
+	height: 30%;
+	left: 13%;
+}
+.d{
+	top: 60%;
+	position: absolute;
+	width: 20%;
+	height: 30%;
+	left: 65%;
+	display: block;
+}
+.daa{
+	top: 60%;
+	position: absolute;
+	width: 20%;
+	height: 30%;
+	left: 80%;
+	display: block;
+}
+.d2{
+	top: 60%;
+	position: absolute;
+	width: 18%;
+	height: 30%;
+	left: 19%;
+	display: block;
+}
+.d3{
+	top: 80%;
+	position: absolute;
+	width: 10%;
+	height: 24%;
+	left: 45%;
+	display: block;
+}
+.d4{
+	top: 35%;
+	position: absolute;
+	width: 20%;
+	height: 54%;
+	left: 50%;
+	display: block;
+}
+
+@font-face
+{
+font-family: fuente;
+src: url(DearSunshine.otf);
+}
+@font-face
+{
+font-family: fuente1;
+src: url(Fifth-Grader.ttf);
+}
+.haa{
+	position: absolute;
+	top: 50%;
+	left: 14%;
+	width: 50%;
+	height: 80%;
+}
+.da{
+    position: all;
+    margin-top: -50%;
+    margin-left: 15%;
+	width: 70%;
+	height: 60%;
+}
+.da1{
+	 position: all;
+    margin-top: 12%;
+    margin-left: 15%;
+	width: 70%;
+	height: 60%;
+}
+.a1{
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 350px;
+	background: red;
+	border:solid black 2px;
+	width: 400px;
+	height: 200px;
+	padding: 45px;
+	font-size: 50px;
+	color: white;
+}
+.b{
+	width: 0%;
+	height: 0%;
+	display: none;
+
+}
+.letra{
+	font-family: fuente1;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	font-size: 400%;
+}
+.ar{
+	position: absolute;
+	top: 20%;
+	width: 34%;
+	height: 70%;
+	left: -7%;
+}
+.bot{
+	background-color: #283593;
+	left: 70%;
+	top: 95%;
+	width: 12%;
+	height: 8%;
+	position: absolute;
+	font-color: white;
+}
+.boton{
+	color: white;
+	font-size: 180%;
+	font-family: fuente;
+}
+.fond{
+	background-image: url(f.jpg);
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	left: 0%;
+}
+.let{
+	font-family: fuente1;
+    font-size: 95px;
+    position: absolute;
+    left: 20%;
+    top: 12%;
+    color: #1976D2;
+}
+.cerrar{
+	position: absolute;
+	top: 115%;
+	left: 45%;
+	background-color: #00008B;
+	border:solid #00FF00 2px;
+	width: 15%;
+	height: 8%;
+	color: #00FF00;
+	font-family: fuente1;
+	font-size: 30px;
+}
